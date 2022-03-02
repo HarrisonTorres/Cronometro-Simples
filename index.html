@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/javascript" href="js/script.js">
+    <title>Cronometro Simples - Harrison</title>
+</head>
+<body>
+    <body class="tela">
+        <div class="conteiner">
+            <div class="box">
+                <h2 style="color: #ccc; padding: 2px; text-align: center; font-weight: bolder;">Cronometro<br> Javascript</h2>
+                <div class="number" >
+                    <h1 id="contador"><span id="hh">00</span>:<span id="ss">00</span>:<span id="ss">00</span></h1>
+                </div>
+                    <button id="btn-ms" onclick="velocity();">MS</button>
+                <div class="btn">
+                    <button class="btnstyle start" onclick="start();">Start</button>
+                    <button id="pause" class="btnstyle pauseStop" onclick="pause();">Pause</button>
+                    <button id="stop" class="btnstyle stopStop" onclick="stop();">Stop</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <h3>@uharrison_t</h3>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
