@@ -19,10 +19,9 @@
     padding: 10%;
     border-radius: 50px;
     background-position: center;
-    background:linear-gradient(rgba(0, 0, 50, 0.788),#00f);
-    box-shadow:0px 0px 50px rgba(0, 0, 255, 0.5);
-    
-    
+    background: #fff;
+    box-shadow:0px 0px 46px rgba(4, 4, 4, 0.5);
+     
 }
 .number{
     margin-top: 20%;
@@ -78,7 +77,9 @@ h3{
     justify-content: center;
     align-items: center;
 }
-
+.btn-click:hover{
+        font-weight: 800;
+}
 @media screen and (max-width: 500px){
     .number{
         font-size: 36px;
