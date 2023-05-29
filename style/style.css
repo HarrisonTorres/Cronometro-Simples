@@ -4,7 +4,7 @@
 }
 .tela{
     height: 100vh;
-    background:linear-gradient(#00f, rgb(0, 0, 50))
+    background: #fff;
 }
 .conteiner{
     display: flex;
